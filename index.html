@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>myProject</title>
+    <!-- main file Css -->
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -21,33 +22,50 @@
                 <input type="text" id="lname" name="lname"><br><br>
             </fieldset>
             <fieldset>
+                <!-- Q1 -->
                 <legend class="bold">Other Questions</legend>
-                <label for="" class="label-bold">Choose a drink:</label><br>
-                <input type="radio" name="coofee" id="">
-                <label for="">coofee</label><br>
-                <input type="radio" name="coofee" id="" checked>
-                <label for="">tea</label><br>
-                <input type="radio" name="coofee" id="">
-                <label for="">hot chocolate</label><br><br>
-                <label for="" class="label-bold">What ice cream do you like?</label><br>
-                <input type="checkbox" name="Chocolate" id="">
-                <label for="">Chocolate</label><br>
-                <input type="checkbox" name="Chocolate" id="">
-                <label for="">Chocolate Pudding</label><br>
-                <input type="checkbox" name="Chocolate" id="" checked>
-                <label for="">Chocolate Peanut Butter</label><br>
-                <input type="checkbox" name="Chocolate" id="">
-                <label for="">Vanilla</label><br>
-                <input type="checkbox" name="Chocolate" id="">
-                <label for="">Strawberry</label><br><br>
-                <label for="" class="label-bold">Select a school:</label><br>
-                <select name="" id="" class="select_opt">
-                    <option value="">Harvard</option>
-                    <option value="">palestine</option>
+
+                <label for="type-of-drink" class="label-bold">Choose a drink:</label><br>
+                <input type="radio" name="coofee" id="coofee">
+                <label for="coofee">coofee</label><br>
+
+                <input type="radio" name="coofee" id="tea" checked>
+                <label for="tea">tea</label><br>
+
+                <input type="radio" name="coofee" id="hot chocolate">
+                <label for="hot chocolate">hot chocolate</label><br><br>
+
+                <!-- Q2 -->
+                <label for="ice-cream-type" class="label-bold">What ice cream do you like?</label><br>
+
+                <input type="checkbox" name="Chocolate" id="Chocolate">
+                <label for="Chocolate">Chocolate</label><br>
+
+                <input type="checkbox" name="Chocolate Pudding" id="Chocolate Pudding">
+                <label for="Chocolate Pudding">Chocolate Pudding</label><br>
+
+                <input type="checkbox" name="Chocolate Peanut Butter" id="Chocolate Peanut Butter" checked>
+                <label for="Chocolate Peanut Butter">Chocolate Peanut Butter</label><br>
+
+                <input type="checkbox" name="Vanilla" id="Vanilla">
+                <label for="Vanilla">Vanilla</label><br>
+
+                <input type="checkbox" name="Strawberry" id="Strawberry">
+                <label for="Strawberry">Strawberry</label><br><br>
+
+                <!-- Q3 -->
+                <label for="school" class="label-bold">Select a school:</label><br>
+                <select name="school" id="school" class="select_opt">
+                    <option value="Harvard">Harvard</option>
+                    <option value="palestine">palestine</option>
                 </select><br><br>
-                <label for="" class="label-bold">Please Provide Comments</label><br>
-                <textarea name="" id="" cols="50" rows="7"></textarea>
+
+                <!-- Q4 -->
+                <label for="Comments" class="label-bold">Please Provide Comments</label><br>
+                <textarea name="Comments" id="Comments" cols="50" rows="7"></textarea>
             </fieldset><br>
+
+            <!-- submit -->
             <input type="submit" value="Submit" class="input">
         </form>
     </div>
